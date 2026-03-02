@@ -37,21 +37,6 @@ function App() {
   };
 let background = "";
 
-if (weather) {
-  const condition = weather.weather[0].main;
-  console.log(condition);
-  if (condition === "Clear") {
-    background = "sunny";
-  } else if (condition === "Rain") {
-    background = "rainy";
-  } else if (condition === "Clouds") {
-    background = "cloudy";
-  } else if (condition === "Thunderstorm") {
-    background = "storm";
-  } else {
-    background = "default";
-  }
-}
 
 let videoSrc = defaultVideo;
 
@@ -87,19 +72,11 @@ useEffect(() => {
   return () => clearInterval(interval);
 }, []);
   return(
-    <div className={`app ${weather ? "has-weather" : "no-weather"}`}>
- {videoSrc && (
-<video
-  key={videoSrc}
-  autoPlay
-  loop
-  muted
-  className="background-video"
->
-  <source src={videoSrc} type="video/mp4" />
-</video>
-)}
-{weather && (
+     <div className="main-wrapper">
+       <header className="header">
+        <span>🌤 Weather</span>
+
+        {weather && (
 <div className="floating-weather">
   <h2>{currentTime}</h2>
 
@@ -118,6 +95,20 @@ useEffect(() => {
   </div>
 </div>
 )}
+      </header>
+    <div className={`app ${weather ? "has-weather" : "no-weather"}`}>
+ {videoSrc && (
+<video
+  key={videoSrc}
+  autoPlay
+  loop
+  muted
+  className="background-video"
+>
+  <source src={videoSrc} type="video/mp4" />
+</video>
+)}
+
 <div className="hero">
   {!weather && (
     <img src={logo} className="logo" />
@@ -155,9 +146,34 @@ useEffect(() => {
           <p>☁ Condition: {weather.weather[0].description}</p>
         </div>
       )}
+
+   {/* Footer */}
+  <footer className="footer">
+  <div className="footer-left">
+    © {new Date().getFullYear()} SubramanyaV weather-app | Software Engineer
+  </div>
+
+  <div className="footer-right">
+    <a href="https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg==" target="_blank" rel="noreferrer">
+      <i className="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/subramanyav2002" target="_blank" rel="noreferrer">
+      <i className="fab fa-linkedin"></i>
+    </a>
+    <a href="https://x.com/SubramanyaV_" target="_blank" rel="noreferrer">
+      <i className="fab fa-twitter"></i>
+    </a>
+    <a href="https://github.com/SubramanyaVeere" target="_blank" rel="noreferrer">
+      <i className="fab fa-github"></i>
+    </a>
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noreferrer">
+      <i className="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</footer>
+    </div>
     </div>
   );
 }
 
 export default App;
-
