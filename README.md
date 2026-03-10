@@ -4,6 +4,15 @@
 ![Deployment](https://img.shields.io/badge/Deployment-Vercel-black)
 
 
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Subramanya%20Veere-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/subramanyav2002)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Subramanya%20Veere-black?style=for-the-badge&logo=github)](https://github.com/SubramanyaVeere)
+
+[![Instagram](https://img.shields.io/badge/Instagram-Follow%20Me-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/subbu.7)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat%20With%20Me-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/919XXXXXXXXX)
+
+
 
 # 🌤️ Weather App
 
