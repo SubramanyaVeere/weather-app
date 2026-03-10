@@ -39,7 +39,7 @@ function HomePage() {
 
     });
 
-  }, []);
+  }, [API_KEY]);
 
   const fetchWeather = async (city) => {
 

@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Header from "../components/Header";
+
 import SearchBar from "../components/Searchbar";
 import Forecast from "../components/Forecast";
 import Footer from "../components/Footer";

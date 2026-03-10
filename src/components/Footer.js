@@ -19,35 +19,35 @@ return(
 
 <div className="social-links">
 
-<a href="https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg==" target="_blank">
+<a href="https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg==" target="_blank" rel="noopener noreferer">
 <FaInstagram/>
 </a>
 
-<a href="https://github.com/SubramanyaVeere" target="_blank">
+<a href="https://github.com/SubramanyaVeere" target="_blank" rel="noopener noreferer">
 <FaGithub/>
 </a>
 
-<a href="https://x.com/SubramanyaV_" target="_blank">
+<a href="https://x.com/SubramanyaV_" target="_blank" rel="noopener noreferer">
 <FaTwitter/>
 </a>
 
-<a href="https://www.linkedin.com/in/subramanyav2002" target="_blank">
+<a href="https://www.linkedin.com/in/subramanyav2002" target="_blank" rel="noopener noreferer">
 <FaLinkedin/>
 </a>
 
-<a href="https://wa.me/qr/CMOEMAOZNKCEG1" target="_blank">
+<a href="https://wa.me/qr/CMOEMAOZNKCEG1" target="_blank" rel="noopener noreferer">
 <FaWhatsapp/>
 </a>
 
-<a href="mailto:subramanyav2002@gmail.com">
+<a href="mailto:subramanyav2002@gmail.com" rel="noopener noreferer">
 <MdEmail/>
 </a>
 
-<a href="#">
+<a href="/" rel="noopener noreferer">
 <FaGooglePlay/>
 </a>
 
-<a href="#">
+<a href="/" rel="noopener noreferer">
 <FaApple/>
 </a>
 
