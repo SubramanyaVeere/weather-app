@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import SearchBar from "../components/Searchbar";
 import LocalWeather from "../components/LocalWeather";
 import TimeWidget from "../components/Timewidget"
@@ -9,7 +8,7 @@ import "./HomePage.css";
 
 function HomePage() {
 
-  const [city, setCity] = useState("");
+  const [city] = useState("");
   const [weather, setWeather] = useState(null);
 
   const API_KEY = process.env.REACT_APP_WEATHER_KEY;
@@ -23,8 +22,6 @@ function HomePage() {
 
     navigator.geolocation.getCurrentPosition(async (position) => {
 
-      const lat = position.coords.latitude;
-      const lon = position.coords.longitude;
 
       try {
 
