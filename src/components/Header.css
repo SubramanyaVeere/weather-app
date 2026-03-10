@@ -1,0 +1,43 @@
+header {
+  backdrop-filter: blur(10px);
+  padding: 12px 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 10000;
+  width: 100%;
+}
+
+/* Light theme */
+body[data-theme="light"] header {
+  background: rgba(2, 41, 75, 0.2);
+}
+
+/* Dark theme */
+body[data-theme="dark"] header {
+  background: rgba(34, 49, 78, 0.733);
+}
+
+body[data-theme="dark"] span{
+  color: black;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.version {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.theme-toggle {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}

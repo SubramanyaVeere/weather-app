@@ -1,0 +1,28 @@
+
+.weather-card{
+  top: 40px;
+  left: 40px;
+
+  padding:25px;
+
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.15);
+
+  border-radius:15px;
+  width:min(320px, 90%);
+
+  color:white;
+}
+
+/* Desktop & landscape */
+@media (min-width:900px){
+
+.time-widget{
+  position: fixed;
+  top:80px;
+  right:40px;
+  z-index:10;
+}
+
+}
+

@@ -1,0 +1,73 @@
+.day{
+  font-weight:600;
+  color:black;
+  font-size:larger;
+}
+
+.date{
+  font-weight:800;
+  color:rgb(0, 0, 0);
+  font-size:larger;
+}
+
+.time-widget{
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.08);
+  border-radius:16px;
+  padding:34px 22px;
+  border:1px solid rgba(255,255,255,0.2);
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+  text-align:center;
+  width:fit-content;
+  top: 30px;
+}
+
+.time{
+  font-weight:800;
+  font-size:32px;
+  color: rgb(0, 0, 0);
+  text-shadow:0 3px 10px rgba(0,0,0,0.7);
+}
+
+.period{
+  font-size:32px;
+  font-weight:900;
+  margin-left:6px;
+  color: rgb(0, 0, 0);
+}
+
+body[data-theme="dark"] .period {
+  color: rgb(255, 255, 255);
+}
+
+body[data-theme="dark"] .day {
+  color: rgb(255, 255, 255);
+}
+
+body[data-theme="dark"] .date {
+  color: rgb(255, 255, 255);
+}
+
+body[data-theme="dark"] .time {
+  color: rgb(255, 255, 255);
+}
+
+.time-widget:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+
+/* Desktop & landscape */
+@media (min-width:900px){
+
+.time-widget{
+  position: fixed;
+  top:80px;
+  right:40px;
+  z-index:10;
+}
+
+}
+
+

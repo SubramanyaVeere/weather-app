@@ -1,0 +1,25 @@
+.forecast-page{
+
+min-height:100vh;
+display:flex;
+flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+  text-align:center;
+  gap: 20px;
+  background: url("../assests/default.jpg"),linear-gradient(
+    135deg,
+    #e0f2fe,
+    #bae6fd
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.forecast-search{
+
+display:flex;
+justify-content:center;
+margin-top:30px;
+width: 80%;
+}

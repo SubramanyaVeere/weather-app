@@ -1,0 +1,40 @@
+.footer{
+width:100%;
+text-align:center;
+padding:18px 10px;
+font-size:14px;
+opacity:0.9;
+margin-top:auto;
+}
+
+body[data-theme="light"] footer {
+  background: rgba(2, 52, 95, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+body[data-theme="dark"] footer {
+  background: rgba(27, 38, 66, 0.733);
+}
+
+.footer p{
+    color: white;
+    margin-top: 10px
+}
+.social-links{
+margin-top:10px;
+}
+
+.social-links a{
+margin:0px 12px;
+font-size:22px;
+color:white;
+text-decoration:none;
+transition:0.2s;
+}
+
+.social-links a:hover{
+transform:scale(1.2);
+opacity:0.8;
+color: yellow;
+}
+
