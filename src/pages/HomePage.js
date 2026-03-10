@@ -13,7 +13,25 @@ function HomePage() {
 
   const API_KEY = process.env.REACT_APP_WEATHER_KEY;
 
-  useEffect(() => {
+  const fetchWeather = async (city) => {
+
+    try {
+
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
+      );
+
+      const data = await response.json();
+
+      setWeather(data);
+
+    } catch (error) {
+      console.log("Search weather error:", error);
+    }
+
+  };
+
+    useEffect(() => {
 
     if (!navigator.geolocation) {
       console.log("Geolocation not supported");
@@ -39,26 +57,7 @@ function HomePage() {
 
     });
 
-  }, [API_KEY]);
-
-  const fetchWeather = async (city) => {
-
-    try {
-
-      const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
-      );
-
-      const data = await response.json();
-
-      setWeather(data);
-
-    } catch (error) {
-      console.log("Search weather error:", error);
-    }
-
-  };
-
+  }, []);
 
   // ---------------------------
   // UI
