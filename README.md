@@ -47,6 +47,8 @@ Screenshots of the application UI:
 
   
 - 📱 Mobile View
+<img width="1648" height="3008" alt="image" src="https://github.com/user-attachments/assets/3da1e394-42ba-4e98-b555-1c3bae78cabd" />
+
 
 ---
 
