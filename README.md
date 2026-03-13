@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0E75B6&size=24&center=false&vCenter=true&width=600&lines=🚀+Weather+App+is+LIVE;🔴+LIVE:🔜+UPDATE+COMING+SOON)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0E75B6&size=24&center=false&vCenter=true&width=600&lines=🚀+Weather+App+is+LIVE;🔴+LIVE;🔜+UPDATE+COMING+SOON)
 
 
 ![React](https://img.shields.io/badge/React-18-blue)
