@@ -1,12 +1,3 @@
-<p>
-<span style="color:red; font-weight:bold; animation: blink 1s infinite;">●</span> 
-<b style="color:white; font-weight:bold; animation: blink 1s infinite; ">LIVE</b>
-</p>
-
-![Live](https://img.shields.io/badge/●-LIVE-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Status-IN%20PROGRESS-yellow?style=for-the-badge)
-![Coming Soon](https://img.shields.io/badge/COMING-SOON-lightgrey?style=for-the-badge)
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0E75B6&size=24&center=true&vCenter=true&width=600&lines=🚀+Weather+App+is+LIVE;⚙️+Task+Manager+is+IN+PROGRESS;🔜+URL+Shortener+COMING+SOON)
 [Typing SVG](https://readme-typing-svg.herokuapp.com/?color=3B82F6&size=25&center=true&vCenter=true&width=700&lines=🔴+LIVE:+Weather+Application;🟡+IN+PROGRESS:+Task+Management+System;⚪+COMING+SOON:+URL+Shortener)
 
