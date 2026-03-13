@@ -1,3 +1,5 @@
+![Live](https://img.shields.io/badge/●-LIVE-blue?style=for-the-badge)
+
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
 ![API](https://img.shields.io/badge/API-OpenWeather-green)
