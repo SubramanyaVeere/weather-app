@@ -1,3 +1,14 @@
+<p>
+<span style="color:red; font-weight:bold; animation: blink 1s infinite;">●</span> 
+<b>LIVE</b>
+</p>
+
+<style>
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
+
 ![Live](https://img.shields.io/badge/●-LIVE-blue?style=for-the-badge)
 ![Progress](https://img.shields.io/badge/Status-IN%20PROGRESS-yellow?style=for-the-badge)
 ![Coming Soon](https://img.shields.io/badge/COMING-SOON-lightgrey?style=for-the-badge)
